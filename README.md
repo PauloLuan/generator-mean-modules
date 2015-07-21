@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/PauloLuan/generator-mean-modules.svg)](https://travis-ci.org/PauloLuan/generator-mean-modules)
 [![Coverage Status](https://coveralls.io/repos/PauloLuan/generator-mean-modules/badge.svg)](https://coveralls.io/r/PauloLuan/generator-mean-modules)
-[![bitHound Score](https://www.bithound.io/github/PauloLuan/generator-mean-modules/badges/score.svg)](https://www.bithound.io/github/PauloLuan/generator-mean-modules)
+[![bitHound Score](https://www.bithound.io/github/PauloLuan/generator-mean-modules/badges/score.svg)](https://www.bithound.io/github/PauloLuan/generator-mean-modules/)
 [![Dependency Status](https://david-dm.org/PauloLuan/generator-mean-modules.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/PauloLuan/generator-mean-modules)
 
 ## About this generator
