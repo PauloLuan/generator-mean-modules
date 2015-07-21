@@ -4,9 +4,9 @@ var path = require('path');
 var assert = require('yeoman-generator').assert;
 var helpers = require('yeoman-generator').test;
 
-describe('MeanModules:generators\node-module', function() {
+describe('MeanModules:generators/node-module', function() {
     before(function(done) {
-        helpers.run(path.join(__dirname, '../generators\node-module'))
+        helpers.run(path.join(__dirname, '../generators/node-module'))
             .withArguments('name')
             .withOptions({
                 skipInstall: true,
