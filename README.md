@@ -5,28 +5,28 @@
 [![bitHound Score](https://www.bithound.io/github/PauloLuan/generator-mean-modules/badges/score.svg)](https://www.bithound.io/github/PauloLuan/generator-mean-modules)
 [![Dependency Status](https://david-dm.org/PauloLuan/generator-mean-modules.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/PauloLuan/generator-mean-modules)
 
-> [Yeoman](http://yeoman.io) generator
+## About this generator
+
+> This is a [Yeoman](http://yeoman.io) generator created to generate modules both for AngularJS and NodeJS.
+
+Basically it created the following structure for Angular:
+TODO: add tree of tiles
+
+And the following structure for Node:
+TODO: add tree of tiles
+
+In order to make it easier and an organized way to create routes and module for MEAN applications.
 
 
 ## Getting Started
 
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
 ![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
 
 ```bash
 npm install -g yo
 ```
 
 ### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
 To install generator-mean-modules from npm, run:
 
