@@ -9,18 +9,29 @@
 
 > This is a [Yeoman](http://yeoman.io) generator created to generate modules both for AngularJS and NodeJS.
 
-Basically it created the following structure for Angular:
-TODO: add tree of tiles
+Basically it scaffolds the following structure for your Angular client side, assuming you're using the [best practices structure]():
 
-And the following structure for Node:
-TODO: add tree of tiles
+	├───moduleName
+	│		moduleName.controller.js
+	│		moduleName.controller.spec.js
+	│		moduleName.html
+	│		moduleName.js
+	│		moduleName.scss
 
-In order to make it easier and an organized way to create routes and module for MEAN applications.
+And the following structure for Node, assuming you're using [this structure]():
 
+	├───moduleName
+	│ 		index.js
+	│ 		moduleName.controller.js
+	│ 		moduleName.model.js
+	│ 		moduleName.socket.js
+	│ 		moduleName.spec.js
+
+In order to make an organized and easier way to create quickstart routes and modules for MEAN applications.
 
 ## Getting Started
 
-![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
+You must install [Yeoman](http://yeoman.io) generator:
 
 ```bash
 npm install -g yo
@@ -28,7 +39,7 @@ npm install -g yo
 
 ### Yeoman Generators
 
-To install generator-mean-modules from npm, run:
+To install `generator-mean-modules` from npm, just run:
 
 ```bash
 npm install -g generator-mean-modules
@@ -36,8 +47,14 @@ npm install -g generator-mean-modules
 
 Finally, initiate the generator:
 
+for angular (Frontend):
 ```bash
-yo mean modules
+yo mean-modules:angular NAME_OF_MODULE
+```
+
+for node (Backend)
+```bash
+yo mean-modules:node NAME_OF_MODULE
 ```
 
 ### Getting To Know Yeoman
