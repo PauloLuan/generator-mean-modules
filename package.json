@@ -1,33 +1,33 @@
 {
-  "name": "generator-mean-modules",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
-  "license": "MIT",
-  "main": "app/index.js",
-  "repository": "pauloluan/generator-mean-modules",
-  "author": {
-    "name": "Paulo Luan",
-    "email": "pauloluan.inova@gmail.com",
-    "url": "https://github.com/PauloLuan"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "generators"
-  ],
-  "keywords": [
-    "yeoman-generator"
-  ],
-  "dependencies": {
-    "chalk": "^1.1.0",
-    "coveralls": "^2.11.3",
-    "istanbul": "^0.3.17",
-    "should": "^7.0.2",
-    "yeoman-generator": "^0.20.2",
-    "yosay": "^1.0.5"
-  },
-  "devDependencies": {
-    "mocha": "*"
-  }
+    "name": "generator-mean-modules",
+    "version": "0.0.0",
+    "description": "Yeoman generator",
+    "license": "MIT",
+    "main": "app/index.js",
+    "repository": "pauloluan/generator-mean-modules",
+    "author": {
+        "name": "Paulo Luan",
+        "email": "pauloluan.inova@gmail.com",
+        "url": "https://github.com/PauloLuan"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "files": [
+        "generators"
+    ],
+    "keywords": [
+        "yeoman-generator"
+    ],
+    "dependencies": {
+        "chalk": "^1.1.0",
+        "coveralls": "^2.11.3",
+        "istanbul": "^0.3.17",
+        "should": "^7.0.2",
+        "yeoman-generator": "^0.20.2",
+        "yosay": "^1.0.5"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    }
 }
