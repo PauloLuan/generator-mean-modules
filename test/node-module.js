@@ -17,7 +17,11 @@ describe('MeanModules:generators/node', function() {
 
     it('creates files', function() {
         assert.file([
-            'somefile.js'
+            'index.js',
+            'name.controller.js',
+            'name.model.js',
+            'name.socket.js',
+            'name.spec.js'
         ]);
     });
 });
