@@ -9,7 +9,7 @@ module.exports = yeoman.generators.Base.extend({
             desc: 'The subgenerator name'
         });
 
-        this.log('You called the MeanModules subgenerator with the argument ' + this.name + '.');
+        this.log('Generating "' + this.name + '" Domain Module.');
     },
 
     writing: function() {
